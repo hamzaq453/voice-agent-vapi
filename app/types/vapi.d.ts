@@ -22,9 +22,22 @@ declare module '@vapi-ai/web' {
     recordingEnabled?: boolean;
   }
 
+  interface AssistantOverrides {
+    name?: string;
+    firstMessage?: string;
+    recordingEnabled?: boolean;
+    [key: string]: unknown;
+  }
+
+  interface StartResponse {
+    success: boolean;
+    error?: string;
+    sessionId?: string;
+  }
+
   export default class Vapi {
     constructor(apiKey: string);
-    start(assistantIdOrConfig: string | AssistantConfig, assistantOverrides?: any): Promise<any>;
+    start(assistantIdOrConfig: string | AssistantConfig, assistantOverrides?: AssistantOverrides): Promise<StartResponse>;
     stop(): Promise<void>;
     send(message: { type: string; message: { role: string; content: string } }): Promise<void>;
     isMuted(): boolean;

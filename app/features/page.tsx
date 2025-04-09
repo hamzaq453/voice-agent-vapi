@@ -61,7 +61,7 @@ export default function FeaturesPage() {
                 </div>
                 <h3 className="text-lg font-medium text-gray-900 mb-2">Connect Your Phone System</h3>
                 <p className="text-gray-500">
-                  PlumbAssist integrates with your existing phone system, so there's no need to change your phone number or hardware.
+                  PlumbAssist integrates with your existing phone system, so there&apos;s no need to change your phone number or hardware.
                 </p>
               </div>
 
@@ -72,7 +72,7 @@ export default function FeaturesPage() {
                 </div>
                 <h3 className="text-lg font-medium text-gray-900 mb-2">Configure Your Preferences</h3>
                 <p className="text-gray-500">
-                  Set your business hours, technician availability, and how you want calls to be handled when you're unavailable.
+                  Set your business hours, technician availability, and how you want calls to be handled when you&apos;re unavailable.
                 </p>
               </div>
 

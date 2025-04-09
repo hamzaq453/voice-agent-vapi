@@ -20,7 +20,7 @@ export default function PricingPage() {
                 Simple, Transparent Pricing
               </h1>
               <p className="mt-6 max-w-2xl mx-auto text-xl">
-                Choose the plan that's right for your plumbing business. All plans include a 14-day free trial.
+                Choose the plan that&apos;s right for your plumbing business. All plans include a 14-day free trial.
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function PricingPage() {
                   What happens after my free trial?
                 </h3>
                 <p className="mt-2 text-base text-gray-500">
-                  After your 14-day free trial, you'll be automatically charged for the plan you selected. You can cancel anytime before the trial ends to avoid being charged.
+                  After your 14-day free trial, you&apos;ll be automatically charged for the plan you selected. You can cancel anytime before the trial ends to avoid being charged.
                 </p>
               </div>
 
@@ -68,7 +68,7 @@ export default function PricingPage() {
                   Do you offer refunds?
                 </h3>
                 <p className="mt-2 text-base text-gray-500">
-                  We offer a 30-day money-back guarantee. If you're not satisfied with our service, contact our support team for a full refund.
+                  We offer a 30-day money-back guarantee. If you&apos;re not satisfied with our service, contact our support team for a full refund.
                 </p>
               </div>
 

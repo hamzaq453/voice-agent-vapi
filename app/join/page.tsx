@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 
@@ -64,7 +63,7 @@ export default function Join() {
               <p className="mt-2 text-sm text-gray-600">
                 {isLogin ? (
                   <>
-                    Don't have an account?{' '}
+                    Don&apos;t have an account?{' '}
                     <button
                       onClick={() => setIsLogin(false)}
                       className="font-medium text-blue-600 hover:text-blue-500"
